@@ -79,7 +79,7 @@ public class BookFlightAdapter extends RecyclerView.Adapter<BookFlightAdapter.Ca
 
         String accpic = IMAGE_BASE_URL + s;
 
-        //accpic = accpic.replaceAll(" ", "%20");
+        accpic = accpic.replaceAll(" ", "%20");
 
         Picasso.with(getContext())
                 .load(accpic)
