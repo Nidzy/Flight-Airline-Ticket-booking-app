@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_xl">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvUpcomingBooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/cardbg"
+                card_view:cardCornerRadius="@dimen/cardview_default_radius"
+                card_view:cardElevation="@dimen/cardview_default_elevation"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_large">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small"
+                        android:text="Passenger 1"
+                        android:textColor="@color/dividerLight" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="@color/dividerLight"
+                            android:padding="@dimen/padding_xl" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/padding_small"
+                                android:layout_weight="1"
+                                android:background="@drawable/radio_bg"
+                                android:button="@null"
+                                android:checked="false"
+                                android:drawableLeft="@drawable/male_selection"
+                                android:drawablePadding="@dimen/padding_large"
+                                android:text="Male"
+                                android:textColor="@color/dividerLight" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/radio_bg"
+                                android:button="@null"
+                                android:checked="false"
+                                android:drawableLeft="@drawable/female_selection"
+                                android:drawablePadding="@dimen/padding_large"
+                                android:text="Female"
+                                android:textColor="@color/dividerLight" />
+
+                        </RadioGroup>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small">
+
+                        <EditText
+                            android:id="@+id/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/prellimtextbg"
+                            android:drawablePadding="@dimen/padding_large"
+                            android:hint="Name as in the passport"
+                            android:textColorHint="@color/white20"
+                            android:textSize="@dimen/text_l" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small">
+
+                        <EditText
+                            android:id="@+id/editText2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/prellimtextbg"
+                            android:drawablePadding="@dimen/padding_large"
+                            android:hint="SurName as in the passport"
+                            android:textColorHint="@color/white20"
+                            android:textSize="@dimen/text_l" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/padding_small">
+
+                        <Button
+                            android:id="@+id/btnDob"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/buttonbg"
+                            android:text="Date of Birth"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/white20"
+                            android:textSize="13sp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingBottom="0dp"
+                            android:paddingLeft="@dimen/padding_small"
+                            android:paddingRight="@dimen/padding_small"
+                            android:paddingTop="0dp">
+
+                            <Spinner
+                                android:id="@+id/spNationality"
+                                android:layout_width="245dp"
+                                android:layout_height="47dp"
+                                android:background="@color/commonbg"
+                                android:popupBackground="@color/spinnerbgnew"
+                                android:textSize="10sp" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="47dp"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/arrow_spinner"
+                                android:tint="@color/white" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/padding_small">
+
+                        <EditText
+                            android:id="@+id/editText3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/prellimtextbg"
+                            android:drawablePadding="@dimen/padding_large"
+                            android:hint="PASSPORT NO."
+                            android:inputType="number"
+                            android:textColorHint="@color/white20"
+                            android:textSize="@dimen/text_l" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:paddingBottom="0dp"
+                            android:paddingLeft="@dimen/padding_small"
+                            android:paddingRight="@dimen/padding_small"
+                            android:paddingTop="0dp">
+
+                            <Button
+                                android:id="@+id/btnExpDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonbg"
+                                android:text="Expiry Date"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/white20"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/checkbg"
+                        android:checked="true"
+                        android:text="Save these details for later"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/cardbg"
+                card_view:cardCornerRadius="@dimen/cardview_default_radius"
+                card_view:cardElevation="@dimen/cardview_default_elevation"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_large">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small"
+                        android:text="CONTACT DETAILS"
+                        android:textColor="@color/dividerLight" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            android:layerType="software"
+                            android:src="@drawable/dotted" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/prellimtextbg"
+                            android:drawablePadding="@dimen/padding_large"
+                            android:hint="Mobile No"
+                            android:inputType="number"
+                            android:textColorHint="@color/white20"
+                            android:textSize="@dimen/text_l" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/prellimtextbg"
+                            android:drawablePadding="@dimen/padding_large"
+                            android:hint="Email-Id"
+                            android:textColorHint="@color/white20"
+                            android:textSize="@dimen/text_l" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/padding_small">
+
+                <Button
+                    android:id="@+id/btnBooking"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_bg"
+                    android:text="Continue Booking"
+                    android:textColor="@color/checkbg" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+
+

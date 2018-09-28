@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_large">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/padding_large">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/ivClose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:paddingRight="15dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/ic_cancel" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_xl">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/prellimtextbg"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_small">
+
+                    <TextView
+                        android:id="@+id/tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/padding_large"
+                        android:padding="7dp"
+                        android:text="Istanbul"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_med" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:padding="@dimen/padding_small"
+                        android:text="IST, SAW"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_xl"
+                android:paddingLeft="@dimen/padding_xl"
+                android:paddingRight="@dimen/padding_xl"
+                android:paddingTop="0dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/prellimtextbg"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_small">
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/padding_large"
+                        android:padding="7dp"
+                        android:text="Mumbai"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_med" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:padding="@dimen/padding_small"
+                        android:text="BOM"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_large">
+
+                <TextView
+                    android:id="@+id/tvOneWay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="ONE WAY"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvReturn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Return"
+                    android:textAllCaps="true"
+                    android:textColor="@color/dividerLight" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_xl">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/prellimtextbg"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_large">
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/padding_large"
+                        android:padding="7dp"
+                        android:text="Flying Out On"
+                        android:textAllCaps="true"
+                        android:textColor="@color/dividerLight"
+                        android:textSize="@dimen/text_small" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:padding="@dimen/padding_small"
+                        android:text="Friday, 12 November "
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFlight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_large"
+                    android:background="@drawable/prellimtextbg"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/padding_large"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/padding_large"
+                        android:padding="7dp"
+                        android:text="Flying Back On"
+                        android:textAllCaps="true"
+                        android:textColor="@color/dividerLight"
+                        android:textSize="@dimen/text_small" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:padding="@dimen/padding_small"
+                        android:text="Friday, 18 November "
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_large">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small"
+                        android:text="Passenger"
+                        android:textAllCaps="true"
+                        android:textColor="@color/dividerLight"
+                        android:textSize="@dimen/text_small" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tvResult1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textAllCaps="true"
+                            android:textColor="@color/dividerLight"
+                            android:textSize="@dimen/text_l" />
+
+                        <ImageView
+                            android:id="@+id/ivMinus"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_weight="3"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_minus" />
+
+                        <ImageView
+                            android:id="@+id/ivPlus"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_weight="3"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_plus" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/dividerLight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_small"
+                        android:text="airline class"
+                        android:textAllCaps="true"
+                        android:textColor="@color/dividerLight"
+                        android:textSize="@dimen/text_small" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="Economy"
+                        android:textColor="@color/dividerLight"
+                        android:textSize="@dimen/text_small" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/dividerLight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_small">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_small"
+                        android:text="stops"
+                        android:textAllCaps="true"
+                        android:textColor="@color/dividerLight"
+                        android:textSize="@dimen/text_small" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/tvResult2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textAllCaps="true"
+                            android:textColor="@color/dividerLight"
+                            android:textSize="@dimen/text_l" />
+
+                        <ImageView
+                            android:id="@+id/ivMinus2"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_weight="3"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_minus" />
+
+                        <ImageView
+                            android:id="@+id/ivPlus2"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_weight="3"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_plus" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_large">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Departure time"
+                    android:textAllCaps="true"
+                    android:textColor="@color/dividerLight"
+                    android:textSize="@dimen/text_small" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="4">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:id="@+id/ivMorning"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_morning" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="Morning"
+                            android:textAllCaps="true"
+                            android:textColor="@color/dividerLight"
+                            android:textSize="@dimen/text_small" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:id="@+id/ivNoon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_noon" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="Noon"
+                            android:textAllCaps="true"
+                            android:textColor="@color/dividerLight"
+                            android:textSize="@dimen/text_small" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:id="@+id/ivEvening"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_evening" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="Evening"
+                            android:textAllCaps="true"
+                            android:textColor="@color/dividerLight"
+                            android:textSize="@dimen/text_small" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:id="@+id/ivNight"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tint="@color/dividerLight"
+                            app:srcCompat="@drawable/ic_night" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_small"
+                            android:text="Night"
+                            android:textAllCaps="true"
+                            android:textColor="@color/dividerLight"
+                            android:textSize="@dimen/text_small" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnSearchFlight"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:text="Search Flights"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

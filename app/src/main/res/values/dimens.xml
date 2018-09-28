@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--padding size-->
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_xl">15dp</dimen>
+
+    <dimen name="margin_small">25dp</dimen>
+    <dimen name="margin_tiny">10dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="drawable_padding">35dp</dimen>
+
+    <dimen name="text_l">15sp</dimen>
+    <dimen name="text_radio">17sp</dimen>
+    <dimen name="text_med">18sp</dimen>
+    <dimen name="text_cal">22sp</dimen>
+    <dimen name="text_xl">25sp</dimen>
+
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_prodtitle">16sp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+
+    <dimen name="txtProductDetails">13sp</dimen>
+
+</resources>

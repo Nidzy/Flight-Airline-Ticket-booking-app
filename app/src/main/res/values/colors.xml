@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#13151F</color><!--25262F-->
+    <color name="colorPrimaryDark">#13151F</color>
+    <color name="colorAccent">#D3FAED</color>
+
+    <!--other bg colors-->
+    <color name="editbg">#1D1F2B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white20">#20FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black80">#CC151515</color>
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+
+    <!--background color-->
+    <color name="colorBackground">#dedcde</color>
+    <color name="spinnerbg">#eeeeee</color>
+    <color name="arrowbg">#eeeeee</color>
+    <color name="checkbg">#68EADD</color>
+    <color name="cardbg">#1D1F2B</color>
+    <color name="commonbg">#272935</color>
+    <color name="spinnerbgnew">#25262F</color>
+    <!--bottombar color-->
+    <color name="bottombar">#303038</color>
+
+    <!--for bottom bar icon bg-->
+    <color name="icon_normal">#999</color>
+    <color name="icon_selected">@color/colorAccent</color>
+
+    <!--divider color-->
+    <color name="dividerLight">#999999</color>
+    <color name="dividerDark">#555555</color>
+
+    <color name="card_background">#ffffff</color>
+    <color name="stroke">#CCCCCC</color>
+
+    <color name="transperent">#00ffffff</color>
+
+
+</resources>

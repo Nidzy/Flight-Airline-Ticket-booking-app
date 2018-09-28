@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">FlightApp</string>
+
+    <string name="title_BookFlight">Book Flights</string>
+    <string name="title_MapView">Map View</string>
+    <string name="title_FlightStatus">Flight Status</string>
+    <string name="title_MyProfile">My Profile</string>
+    <string name="title_setting">Settings</string>
+
+
+    <string-array name="nationality">
+        <item name="Nationality">Nationality</item>
+        <item name="Indian">Indian</item>
+        <item name="American">American</item>
+        <item name="Australian">Australian</item>
+        <item name="Canadian">Canadian</item>
+    </string-array>
+
+    <string-array name="bags">
+        <item name="1 bag">1 bag</item>
+        <item name="2 bag">2 bag</item>
+        <item name="3 bag">3 bag</item>
+        <item name="4 bag">4 bag</item>
+        <item name="5 bag">5 bag</item>
+    </string-array>
+
+    <string-array name="kgs">
+        <item name="20 kgs">20kgs</item>
+        <item name="40 kgs">40kgs</item>
+        <item name="34 kgs">34kgs</item>
+        <item name="28 kgs">28kgs</item>
+        <item name="35 kgs">35kgs</item>
+    </string-array>
+
+    <string-array name="meals">
+        <item name="gluten intolerent meal">Gluten Intolerent Meal</item>
+        <item name="law fat">Law Fat</item>
+        <item name="cholesterol meal">Cholesterol Meal</item>
+        <item name="low_cholesterol_meal">Low Cholesterol Meal</item>
+    </string-array>
+
+    <string-array name="low_fatmeals">
+        <item name="law fat">Law Fat/Low Cholesterol Meal</item>
+        <item name="low_cholesterol_meal">Low Cholesterol Meal</item>
+        <item name="gluten intolerent meal">Gluten Intolerent Meal</item>
+        <item name="cholesterol meal">Cholesterol Meal</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

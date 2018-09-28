@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bookflight"
+        android:icon="@drawable/ic_aeroplane"
+        android:title="@string/title_BookFlight" />
+
+    <item
+        android:id="@+id/navigation_mapview"
+        android:icon="@drawable/ic_maplocation"
+        android:title="@string/title_MapView" />
+
+    <item
+        android:id="@+id/navigation_flightstatus"
+        android:icon="@drawable/ic_flightstatus"
+        android:title="@string/title_FlightStatus" />
+
+    <item
+        android:id="@+id/navigation_myprofile"
+        android:icon="@drawable/ic_backpack"
+        android:title="@string/title_MyProfile" />
+
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="@dimen/padding_large"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivDeals"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:descendantFocusability="blocksDescendants"
+                android:focusable="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/newyork" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/editbg"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/padding_small">
+
+                <TextView
+                    android:id="@+id/txtProductName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="@dimen/padding_small"
+                    android:paddingRight="@dimen/padding_large"
+                    android:paddingTop="@dimen/padding_large"
+                    android:text="Bali at just 245"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_l" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_small"
+                    android:text="Now you can fly to Bali for as low as 245 when you loook for 2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/padding_small"
+                    android:padding="@dimen/padding_small"
+                    android:text="VALID TILL 23RD FEB"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
