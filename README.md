@@ -1,7 +1,7 @@
 # FlightApplication
 This project contains Static screen design of flight booking and information
 
-It is with the refrence of 
+It is with the reference of 
 https://www.uplabs.com/posts/flight-app-concept-kit
 
 
