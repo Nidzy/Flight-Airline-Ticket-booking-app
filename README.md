@@ -9,7 +9,7 @@ To run this project with images follow below steps :
 
 <B>1) Add all the images from images folder to your local directory </B>
 
-<B>2) Do chnages in the IMAGE_BASE_URL in CommonUtilities.java file according to local server URL (Ex: Localhost) </B>
+<B>2) Do changes in the IMAGE_BASE_URL in CommonUtilities.java file according to local server URL (Ex: Localhost) </B>
 
 
 ![](images/1_splashscreen.jpg)
