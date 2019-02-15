@@ -1,4 +1,4 @@
-# FlightApplication
+# Flight/Airline Ticket booking app
 This project contains Static screen design of flight booking and information
 
 It is with the reference of 
